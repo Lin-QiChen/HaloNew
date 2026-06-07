@@ -16,8 +16,8 @@ export default function Header() {
   return (
     <header className="bg-white border-b border-gray-200 px-6 py-3 flex items-center justify-between shadow-sm">
       <div className="flex items-center gap-3">
-        <h1 className="text-xl font-bold text-gray-800">🕷️ Scrapling</h1>
-        <span className="text-sm text-gray-400 hidden sm:inline">Visual Web Scraper</span>
+        <h1 className="text-xl font-bold text-gray-800">💼 HaloNew</h1>
+        <span className="text-sm text-gray-400 hidden sm:inline">智能招聘助手</span>
       </div>
       <nav className="flex gap-1">
         {TABS.map(({ id, label, icon }) => (
